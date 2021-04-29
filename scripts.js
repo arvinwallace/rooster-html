@@ -19,7 +19,6 @@ function pangram(string){
 
 function checkpangram(){
   const value = document.getElementById("pangram").value
-  console.log("Result", pangram(value))
   const result = pangram(value)
   const showResult = document.getElementById("results")
   showResult.innerText = `${result}`
